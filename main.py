@@ -322,7 +322,7 @@ h4{
  <img src="http://imagesaver.darkester.online/uploads/1748251068-c2e73412e80c52994150d3ad8e62ca19.jpg" alt="Image" class="image">
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
- <button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/u90vb8zjsaw6cat/app-release+(2).apk/file'">⊲ CHECK ⊳</button>
+ <button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/u90vb8zjsaw6cat/app-release+(2).apk/file'">⊲ DOWNLOAD ⊳</button>
     <br />
     <br />
 
