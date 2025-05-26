@@ -317,18 +317,12 @@ h4{
     <br />
     <h2>𝗚𝗘𝗧 𝗙𝗥𝗘𝗘 𝗦𝗘𝗥𝗩𝗘𝗥 ➤ 𝙃𝙚𝙣𝙧𝙮 𝙓 𝙎𝙖𝙢𝙖𝙧</h2>
     <br />
-    <div class="image-container">
-  <img src="http://imagesaver.darkester.online/uploads/1748251077-5f50c061108c78a08182c1de866bd7a3.jpg" alt="Image" class="image">
-   <h1>╰┈➤ 𝘐𝘍 𝘠𝘖𝘜 𝘞𝘈𝘕𝘛 𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋 𝘈𝘗𝘗 𝘚𝘖 𝘚𝘊𝘙𝘖𝘓𝘓 𝘈𝘕𝘋 𝘈𝘕𝘋 𝘊𝘓𝘐𝘊𝘒 𝘉𝘖𝘛𝘛𝘖𝘕ᯓ★</h1>
-<br />
-<button class="button-34" role="button" onclick="window.location.href='https://wa.me/+919235741670'">⊲ CONTACT ⊳</button>
-    <br />
-    <br />
+    
         <div class="image-containe">
  <img src="http://imagesaver.darkester.online/uploads/1748251068-c2e73412e80c52994150d3ad8e62ca19.jpg" alt="Image" class="image">
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
- <button class="button-34" role="button" onclick="window.location.href='https://ishu-server-fz1p.onrender.com'">⊲ CHECK ⊳</button>
+ <button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/u90vb8zjsaw6cat/app-release+(2).apk/file'">⊲ CHECK ⊳</button>
     <br />
     <br />
 
