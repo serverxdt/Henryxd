@@ -260,7 +260,7 @@ details{
 .button-34 {
   background: whit;
   border-radius: 999px;
-  box-shadow: white 5 10px 30px -50px;
+  box-shadow: white 5 10px 10px -10px;
   box-sizing: border-box;
   color: red;
   cursor: pointer;
@@ -273,7 +273,7 @@ details{
   padding: 8px 18px;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
+  touch-action: zooming;
   width: fit-content;
   word-break: break-word;
   border: 5;
