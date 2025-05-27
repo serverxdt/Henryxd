@@ -260,7 +260,7 @@ details{
 .button-34 {
   background: whit;
   border-radius: 999px;
-  box-shadow: white 0 10px 20px -10px;
+  box-shadow: white 0 20px 30px -50px;
   box-sizing: border-box;
   color: red;
   cursor: pointer;
@@ -276,8 +276,8 @@ details{
   touch-action: manipulation;
   width: fit-content;
   word-break: break-word;
-  border: 0;
-  margin-bottom:12px;
+  border: 5;
+  margin-bottom: 20px;
 }
 
 .footer {
