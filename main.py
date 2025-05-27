@@ -136,7 +136,7 @@ details{
   width: 330px; /* adjust the width to your image size */
   height: 200px; /* adjust the height to your image size */
   margin: 13px;
-  box-shadow: white 0 10px 20px -10px;
+  box-shadow: white 50 10px 20px -10px;
 }
 
 .image {
@@ -177,7 +177,7 @@ details{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .image-container {
@@ -248,14 +248,14 @@ details{
   width: 300px; /* adjust the width to your image size */
   height: 200px; /* adjust the height to your image size */
   margin: 13px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1.5);
 }
 
 .image{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 .button-34 {
   background: whit;
