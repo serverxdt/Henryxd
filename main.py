@@ -260,7 +260,7 @@ details{
 .button-34 {
   background: whit;
   border-radius: 999px;
-  box-shadow: white 0 20px 30px -50px;
+  box-shadow: white 5 10px 30px -50px;
   box-sizing: border-box;
   color: red;
   cursor: pointer;
