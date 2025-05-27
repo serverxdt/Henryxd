@@ -115,7 +115,7 @@ h2{
 }
 
 .convo{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 1.35) 0px 15px 20px;
     width: 250px;
     height: 120px;
     background-color: yellow;
@@ -143,7 +143,7 @@ details{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .image-containe{
@@ -152,7 +152,7 @@ details{
   width: 300px; /* adjust the width to your image size */
   height: 250px; /* adjust the height to your image size */
   margin: 13px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.35);
 }
 
 .image{
@@ -170,7 +170,7 @@ details{
   width: 300px; /* adjust the width to your image size */
   height: 250px; /* adjust the height to your image size */
   margin: 2px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
 }
 
 .image {
