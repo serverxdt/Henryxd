@@ -269,7 +269,7 @@ details{
   font-weight: 700;
   line-height: 24px;
   opacity: 1;
-  outline: 0 solid white;
+  outline: 5 solid white;
   padding: 8px 18px;
   user-select: none;
   -webkit-user-select: none;
