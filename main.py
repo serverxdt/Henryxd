@@ -318,8 +318,9 @@ h4{
     <h2>𝗚𝗘𝗧 𝗙𝗥𝗘𝗘 𝗦𝗘𝗥𝗩𝗘𝗥 ➤ 𝙃𝙚𝙣𝙧𝙮 𝙓 𝙎𝙖𝙢𝙖𝙧</h2>
     <br />
     
-        <div class="image-containe">
- <img src="http://imagesaver.darkester.online/uploads/1748251068-c2e73412e80c52994150d3ad8e62ca19.jpg" alt="Image" class="image">
+        <div class="content">
+        <img src="http://imagesaver.darkester.online/uploads/1748428155-Picsart_25-05-28_15-58-46-668.jpg" style="width: 100%; height: auto; border-radius: 12px;">
+        <h1>Officail WEB</h1>alt="Image" class="image">
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
  <button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/u90vb8zjsaw6cat/app-release+(2).apk/file'">⊲ DOWNLOAD ⊳</button>
