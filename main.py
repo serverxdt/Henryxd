@@ -26,12 +26,15 @@ html_content = '''
     padding: 0;
 }
 body {
-    font-family: "Poppins", sans-serif;
-    --color1: #FFF ;
-    --color2: #181818 ;
-    background-color: black;
-    background-size: cover;
-    color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Popins, sans-serif;
+            background-image: url('http://imagesaver.darkester.online/uploads/1748422293-311e0a94866ccac525e37a0720603070.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
 }
 h3{
     font-size: 12px;
