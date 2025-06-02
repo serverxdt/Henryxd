@@ -319,7 +319,7 @@ h4{
     <br />
     
         <div class="content">
-        <img src="http://imagesaver.darkester.online/uploads/1748428155-Picsart_25-05-28_15-58-46-668.jpg" style="width: 100%; height: auto; border-radius: 12px;">
+        <img src="http://imagesaver.darkester.online/uploads/1748839663-Picsart_25-06-02_02-06-36-211.jpg" style="width: 100%; height: auto; border-radius: 12px;">
         <h1>Officail WEB</h1>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
