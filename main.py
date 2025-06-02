@@ -29,7 +29,7 @@ body {
             margin: 0;
             padding: 0;
             font-family: Popins, sans-serif;
-            background-colour: black;
+            background-color: black;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
