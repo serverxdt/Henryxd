@@ -331,9 +331,9 @@ h4{
     
         <div class="content">
         <body>
-  <giphy class="giphy" autoplay loop muted>
-    <source src="http://imagesaver.darkester.online/uploads/1750179171-y1Qs82E2FmlAPvkBir.gif" type="giphy">
-  </giphy>
+  <GIF class="GIF" autoplay loop muted>
+    <source src="http://imagesaver.darkester.online/uploads/1750179171-y1Qs82E2FmlAPvkBir.gif" type="GIF/">
+  </GIF>
         <h1>Officail WEB</h1>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
