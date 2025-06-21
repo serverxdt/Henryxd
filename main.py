@@ -48,7 +48,7 @@ html_content = '''
         }
         h2 {
             color: #fff;
-            font-size: 28px;
+            font-size: 20px;
             margin-bottom: 20px;
             text-shadow: 0 0 10px #000;
         }
@@ -126,23 +126,6 @@ html_content = '''
 </head>
 <body>
     <header>
-    <nav>
-        <ul class='nav-bar'>
-            <div class="text-2xl text-primary">: ̗̀➛ 𝐇𝐄𝐍𝐑𝐘 𝐗 𝐒𝐀𝐌𝐀𝐑 ★</div>
-            <input type='checkbox' id='check' />
-            <span class="menu">
-                <li><a href="">WEB TO WEB SINGLE</a ></li>
-                                <li><a href="">WEB TO WEB STICKER</a></li>
-                <li><a href="">MULTY COOKIE PAGE+SIMPLE ID POST</a></li>
-                
-                    <li><a href="">MULTY TOKEN CONVO</a></li>
-                                        <li><a href="">AUTO POST SHARE + MULTY POST</a></li>
-                <li><a href="">POST BOOKMARK TOOL </a></li>
-                </li>
-                <label for="check""><i class="fas fa-times"></i></label>
-            </span>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
     </nav>
     </header>
     <br />
