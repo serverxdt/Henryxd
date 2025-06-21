@@ -149,7 +149,7 @@ html_content = '''
                <div class="content">
         <body>
   <video class="video" autoplay loop muted>
-    <source src="https://i.imgur.com/7GUAWWz.gif" type="video/mp4">
+    <source src=("https://i.imgur.com/7GUAWWz.gif") type="video/mp4">
   </video>
   </body>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
