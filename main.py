@@ -32,7 +32,7 @@ Copyright: �Shahzaib_Khanzada -->
         
         <!-- Card 02 -->
         <div class="card">
-          <img src="https://i.imgur.com/TbhQqI0.jpeg" alt="H3NRY T00L" />
+          <gif src="https://i.imgur.com/0mLndDh.gif" alt="H3NRY T00L" />
           <div class="content">
             <h1 class="name">H3NRY'X</h1>
             <h3 class="infos">
