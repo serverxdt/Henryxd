@@ -12,30 +12,21 @@ html_content = '''
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HENRY WEB</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Login - Henry Server</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        *{
-
-    box-sizing: border-box;
-
-    margin: 0;
-    padding: 0;
-}
-body {
+        body {
             margin: 0;
             padding: 0;
             font-family: Popins, sans-serif;
-            background-vedio: url('https://i.imgur.com/H09Bjpp.gif')
+            background-image: url('http://imagesaver.darkester.online/uploads/1748422293-311e0a94866ccac525e37a0720603070.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             margin: 0;
             padding: 0;
-}
+        }
         .container {
             max-width: 50px auto; /* Decreased max-width */
             margin: 50px auto; /* Adjusted margin */
@@ -43,267 +34,96 @@ body {
             background-color: rgba(220, 220, 220, 0.5); /* Transparent white background */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-}
-h3{
-    font-size: 12px;
-    color: white;
-    text-align: center;
-}
-h2{
-    text-align: center;
-    font-size: 19px;
-    font-family: cursive;
-    color: white;
-}
-.nav-bar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    position: relative;
-    background-color: var(--color2);
-    padding: 12px 20px;
-}
-.logo img {width: 40px;}
-.menu {display: flex;}
-.menu li {padding-left: 30px;}
-.menu li a {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--color1);
-    text-align: center;
-    transition: 0.15s ease-in-out;
-    position: relative;
-    text-transform: uppercase;
-}
-.menu li a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: var(--color1);
-    transition: 0.15s ease-in-out;
-}
-.menu li a:hover:after {width: 100%;}
-.open-menu , .close-menu {
-    position: absolute;
-    color: var(--color1);
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: none;
-}
-.open-menu {
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-.close-menu {
-    top: 20px;
-    right: 20px;
-}
-#check {display: none;}
-@media(max-width: 610px){
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: var(--color2);
-        transition: all 0.2s ease-in-out;
-    }
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {left: 0;}
-}
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            border: 1.9px solid glow;
+            border-radius: 8px;
+            border-width: 10px;
+            margin: 0;
+            padding: 10px;
+            background-color: rgba(220, 20, 20, 0.5); /* Transparent red background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #fff;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #000;
+        }
 
-.convo{
-    box-shadow: rgba(0, 0, 0, 1.35) 0px 15px 20px;
-    width: 250px;
-    height: 120px;
-    background-color: yellow;
-    margin-left: 55px;
-}
-h1{
-    margin-top: 10px;
-    color: white;
-    font-size: 12px;
-    text-align: center;
-}
+        /* Blinking Sukhi Server heading */
+        .sukhi-server {
+            font-size: 32px;
+            color: #ff5e5e;
+            animation: blink 1.5s infinite;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
 
-details{
-    color: red;
-}
-.image-container {
-  position: relative;
-  width: 330px; /* adjust the width to your image size */
-  height: 200px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: white 50 10px 20px -10px;
-}
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
 
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 30px;
-}
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
 
-.image-containe{
-  position: relative;
+        form {
+        display: flex;
+        flex-direction: column; /* Arrange children in a column */
+        align-items: center;    /* Center items horizontally */
+        }
+        
+        button {
+        width: auto;            /* Change to auto for centered width */
+        padding: 12px 20px;     /* Adjust padding for better appearance */
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        }
 
-  width: 300px; /* adjust the width to your image size */
-  height: 250px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: 0 0 50px rgba(5, 0, 0, 1.35);
-}
+        button:hover {
+            background-color: #0056b3;
+        }
 
-.image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
+        .admin-contact {
+            margin-top: 20px;
+            color: #fff;
+        }
 
-.imager-containe{
+        .admin-contact a {
+            color: #00ff00;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
-  position: relative;
-
-
-  width: 300px; /* adjust the width to your image size */
-  height: 250px; /* adjust the height to your image size */
-  margin: 2px;
-  box-shadow: 0 0 50px rgba(5, 0, 0, 1.5);
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 30px;
-}
-
-.image-container {
-  position: relative;
-  width: 330px; /* adjust the width to your image size */
-  height: 200px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: 0 0 50px rgba(5, 0, 0, 1.5);
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.image-containe{
-  position: relative;
-
-  width: 300px; /* adjust the width to your image size */
-  height: 200px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: 0 0 50px rgba(5, 0, 0, 1.5);
-}
-
-.image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.image-container {
-  position: relative;
-  width: 330px; /* adjust the width to your image size */
-  height: 200px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: 0 0 50px rgba(5, 0, 0, 1.5);
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.image-containe{
-  position: relative;
-
-  width: 300px; /* adjust the width to your image size */
-  height: 200px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: 0 0 50px rgba(5, 0, 0, 1.5);
-}
-
-.image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.image-containe{
-  position: relative;
-
-  width: 300px; /* adjust the width to your image size */
-  height: 200px; /* adjust the height to your image size */
-  margin: 13px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 1.5);
-}
-
-.image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 30px;
-}
-.button-34 {
-  background: whit;
-  border-radius: 999px;
-  box-shadow: white 5 10px 10px -10px;
-  box-sizing: border-box;
-  color: red;
-  cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  opacity: 1;
-  outline: 5 solid white;
-  padding: 8px 18px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: zooming;
-  width: fit-content;
-  word-break: break-word;
-  border: 5;
-  margin-bottom: 20px;
-}
-
-.footer {
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-}
-h4{
-    color: white;
-    font-family: bold;
-    text-align: center;
-}
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
     </style>
-    </head>
-    
+</head>
 <body>
     <header>
     <nav>
