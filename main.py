@@ -133,7 +133,7 @@ html_content = '''
     <br />
     
         <div class="content">
-        <img src="https://i.imgur.com/2yJnscE.jpeg" style="width: 100%; height: auto; border-radius: 20px;">
+        <vedio src="https://i.imgur.com/7GUAWWz.gif" style="width: 100%; height: auto; border-radius: 20px;">
         <h1>Officail WEB</h1>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
