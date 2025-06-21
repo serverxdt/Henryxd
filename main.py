@@ -20,7 +20,7 @@ html_content = '''
             margin: 0;
             padding: 0;
             font-family: Popins, sans-serif;
-            background-image: url('http://imagesaver.darkester.online/uploads/1748422293-311e0a94866ccac525e37a0720603070.jpg');
+            background-color: cream;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -132,9 +132,12 @@ html_content = '''
     <h2>𝗚𝗘𝗧 𝗙𝗥𝗘𝗘 𝗦𝗘𝗥𝗩𝗘𝗥 ➤ 𝙃𝙚𝙣𝙧𝙮 𝙓 𝙎𝙖𝙢𝙖𝙧</h2>
     <br />
     
-        <div class="content">
-        <vedio src="https://i.imgur.com/7GUAWWz.gif" style="width: 100%; height: auto; border-radius: 20px;">
-        <h1>Officail WEB</h1>
+               <div class="content">
+        <body>
+  <video class="video" autoplay loop muted>
+    <source src="https://giphy.com/gifs/y1Qs82E2FmlAPvkBir.mp4" type="video/mp4">
+  </video>
+  </body>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
  <br />
  <button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/dotpunuezc9ji5p/HENRY+X+SAMAR+APK+.apk/file'">⊲ DOWNLOAD ⊳</button>
