@@ -122,6 +122,20 @@ html_content = '''
             margin-top: 10px;
             font-weight: bold;
         }
+        #check {display: none;}
+        @media(max-width: 610px){
+       .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
     </style>
 </head>
 <body>
@@ -135,7 +149,7 @@ html_content = '''
                <div class="content">
         <body>
   <video class="video" autoplay loop muted>
-    <source src="https://giphy.com/gifs/y1Qs82E2FmlAPvkBir.mp4" type="video/mp4">
+    <source src="https://i.imgur.com/7GUAWWz.gif" type="video/mp4">
   </video>
   </body>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
