@@ -122,7 +122,7 @@ h2{
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {center: 0;}
+    #download: downloaded ~ .menu {center: 0;}
 }
 
 .convo{
