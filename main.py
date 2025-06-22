@@ -29,7 +29,7 @@ body {
             margin: 0;
             padding: 0;
             font-family: Popins, sans-serif;
-            background-color: black;
+            background-image: url('https://i.imgur.com/hb1Ny6H.gif');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
