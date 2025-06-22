@@ -342,9 +342,7 @@ h4{
     
         <div class="content">
         <body>
-  <video class="video" autoplay loop muted>
-    <source src="https://giphy.com/gifs/y1Qs82E2FmlAPvkBir.mp4" type="video/mp4">
-  </video>
+        <img src="https://i.imgur.com/1AKZp6Z.jpeg" style="width: 100%; height: auto; border-radius: 12px;">
 </body>
         <h1>Officail WEB</h1>
  <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
