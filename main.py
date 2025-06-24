@@ -342,14 +342,20 @@ h4{
     
         <div class="content">
         <body>
-        <img src="https://i.imgur.com/x34jjuk.jpeg" style="width: 100%; height: auto; border-radius: 18px;">
-</body>
-        <h1>Officail WEB</h1>
- <h1>╰┈➤ 🩷 𝗙𝗿𝗲𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 𝗔𝗽𝗽 𝗕𝘆 𝗛𝗲𝗻𝗿𝘆 𝗫 𝗦𝗮𝗺𝗮𝗿 ᯓ★</h1>
- <br />
- <button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/dotpunuezc9ji5p/HENRY_X_SAMAR_APK_.apk/file'">⊲ DOWNLOAD ⊳</button>
-    <br />
-    <br />
+        <div class="service-box">
+                            <!-- Service Status -->
+                            
+                            <!-- Service Image -->
+                            <img src="images/aio.jpg" 
+                                 alt="All in One Tool (Server 1)" 
+                                 class="https://i.imgur.com/x34jjuk.jpeg">
+                            <!-- Service Name -->
+                            <h2>All in One Tool (Server 1)</h2>
+                            <!-- Service URL -->
+                            <a href="https://www.mediafire.com/file/dotpunuezc9ji5p/HENRY_X_SAMAR_APK_.apk/file" 
+                               class="visit-button" 
+                          >Visit</a>
+                        </div>
 
     <div class="footer">
     <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
