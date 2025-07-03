@@ -341,21 +341,12 @@ h4{
     <br />
     
         <div class="content">
-        <body>
-        <div class="service-box">
-                            <!-- Service Status -->
-                            
-                            <!-- Service Image -->
-                            <img src="images/aio.jpg" 
-                                 alt="All in One Tool (Server 1)" 
-                                 class="https://i.imgur.com/x34jjuk.jpeg">
-                            <!-- Service Name -->
-                            <h2>All in One Tool (Server 1)</h2>
-                            <!-- Service URL -->
-                            <a href="https://www.mediafire.com/file/dotpunuezc9ji5p/HENRY_X_SAMAR_APK_.apk/file" 
-                               class="visit-button" 
-                          >Visit</a>
-                        </div>
+          <img src="https://i.imgur.com/66f358f.jpeg" alt="Image" class="image">
+   <h1>╰┈➤ IF YOU WANT TO DOWNLOAD APK TO CLICK THE DOWNLOAD BUTTON.</h1>
+<br />
+<button class="button-34" role="button" onclick="window.location.href='https://wa.me/+919235741670'">⊲ DOWNLOAD ⊳</button>
+    <br />
+    <br />
 
     <div class="footer">
     <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
