@@ -319,7 +319,7 @@ h4{
     <header>
     <nav>
         <ul class='nav-bar'>
-            <div class="text-2xl text-primary">: ̗̀➛ 𝐇𝐄𝐍𝐑𝐘 𝐗 𝐒𝐀𝐌𝐀𝐑 ★</div>
+            <div class="text-2xl text-primary">:HENRY-X 2.0 PANEL</div>
             <input type='checkbox' id='check' />
             <span class="menu">
                 <li><a href="">WEB TO WEB SINGLE</a ></li>
@@ -337,14 +337,14 @@ h4{
     </nav>
     </header>
     <br />
-    <h2>𝗚𝗘𝗧 𝗙𝗥𝗘𝗘 𝗦𝗘𝗥𝗩𝗘𝗥 ➤ 𝙃𝙚𝙣𝙧𝙮 𝙓 𝙎𝙖𝙢𝙖𝙧</h2>
+    <h2>𝗚𝗘𝗧 𝗙𝗥𝗘𝗘 𝗦𝗘𝗥𝗩𝗘𝗥 ➤ 𝙃𝙚𝙣𝙧𝙮-𝙓 2.0</h2>
     <br />
     
         <div class="content">
-          <img src="https://i.imgur.com/66f358f.jpeg" alt="Image" class="image">
+          <img src="https://i.imgur.com/5pnABV0.jpeg" alt="Image" class="image">
    <h1>╰┈➤ IF YOU WANT TO DOWNLOAD APK TO CLICK THE DOWNLOAD BUTTON.</h1>
 <br />
-<button class="button-34" role="button" onclick="window.location.href='https://wa.me/+919235741670'">⊲ DOWNLOAD ⊳</button>
+<button class="button-34" role="button" onclick="window.location.href='https://www.mediafire.com/file/8tml0qgwqvs7p9u/HENRY-X.apk/file'">⊲ DOWNLOAD ⊳</button>
     <br />
     <br />
 
