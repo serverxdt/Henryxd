@@ -19,7 +19,7 @@ html_content = '''
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #121212;
+            background: linear-gradient(to right, #9932CC, #FF00FF);
             color: #fff;
         }
 
@@ -86,7 +86,7 @@ html_content = '''
             max-width: 1200px;
             margin: 30px auto;
             padding: 30px;
-            background-color: #1e1e1e;
+            background: linear-gradient(to right, #9932CC, #FF00FF);
             border-radius: 8px;
             box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
         }
