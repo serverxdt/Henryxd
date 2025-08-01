@@ -93,7 +93,7 @@ html_content = '''
 
         h1 {
             text-align: center;
-            color: #ffcc00;
+            color: #e0e0e0;
             font-size: 36px;
         }
 
