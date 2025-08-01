@@ -182,7 +182,7 @@ html_content = '''
     <div class="container">
         <h1>Dwonload App</h1>
         <section class="service-section">
-            <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 800px; height: 1000; border-radius: 50px;">
+            <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 15px; height: 30; border-radius: 50px;">
             <div class="service-item" onclick="window.location.href='https://my-app-production-50e3.up.railway.app/'">
                 
                 <h1>(HENRYX) 2.0</h1>
