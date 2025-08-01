@@ -179,9 +179,6 @@ html_content = '''
     </style>
 </head>
 <body>
-    <nav>
-        <div class="logo">(HENRY-X) 2.0 PANEL</div>
-
     <div class="container">
         <h1>SERVER</h1>
         <section class="service-section">
@@ -193,8 +190,6 @@ html_content = '''
         </section>
     </div>
 
-    <footer>
-        <p>&copy; 2024 - 2025 HENRY DWN All rights reserved.</p>
     </footer>
 
     <script>
