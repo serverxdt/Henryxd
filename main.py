@@ -94,7 +94,7 @@ html_content = '''
         h1 {
             text-align: center;
             color: #e0e0e0;
-            font-size: 100px;
+            font-size: 36px;
         }
 
         .service-section {
@@ -105,7 +105,7 @@ html_content = '''
 
         .service-item {
             flex: 1;
-            margin: 50px;
+            margin: 15px;
             padding: 30px;
             background: linear-gradient(to right, #9932CC, #FF00FF);
             text-align: center;
@@ -182,9 +182,9 @@ html_content = '''
     <div class="container">
         <h1>Dwonload App</h1>
         <section class="service-section">
-            <img src="" style="width: 100%; height: auto; border-radius: 12px;">
+            <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 800px; height: 1000; border-radius: 50px;">
             <div class="service-item" onclick="window.location.href='https://my-app-production-50e3.up.railway.app/'">
-                <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 800px; height: 1000; border-radius: 12px;">
+                
                 <h1>(HENRYX) 2.0</h1>
                 <p> This App Create By Henry God Abuser And Haters Fucked By Henry. </p>
             </div>
