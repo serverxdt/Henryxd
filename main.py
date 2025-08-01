@@ -107,7 +107,7 @@ html_content = '''
             flex: 1;
             margin: 15px;
             padding: 30px;
-            background-color: #282828;
+            background: linear-gradient(to right, #9932CC, #FF00FF);
             text-align: center;
             border: 2px solid #ffcc00;
             border-radius: 10px;
