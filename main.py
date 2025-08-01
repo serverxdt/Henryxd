@@ -94,7 +94,7 @@ html_content = '''
         h1 {
             text-align: center;
             color: #e0e0e0;
-            font-size: 36px;
+            font-size: 100px;
         }
 
         .service-section {
@@ -105,8 +105,8 @@ html_content = '''
 
         .service-item {
             flex: 1;
-            margin: 800px;
-            padding: 1000px;
+            margin: 50px;
+            padding: 100px;
             background: linear-gradient(to right, #9932CC, #FF00FF);
             text-align: center;
             border: 2px solid #000000;
