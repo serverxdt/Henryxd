@@ -109,7 +109,7 @@ html_content = '''
             padding: 30px;
             background: linear-gradient(to right, #9932CC, #FF00FF);
             text-align: center;
-            border: 2px solid #ffcc00;
+            border: 2px solid #000000;
             border-radius: 10px;
             transition: transform .3s ease, box-shadow .3s ease;
             cursor: pointer;
@@ -126,7 +126,7 @@ html_content = '''
 
         .service-item:hover {
             transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(255, 204, 0, 0.5);
+            box-shadow: 0 25px 50px rgba(255, 204, 0, 0.5);
         }
 
         footer {
