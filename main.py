@@ -182,8 +182,9 @@ html_content = '''
     <div class="container">
         <h1>SERVER</h1>
         <section class="service-section">
-            <img src="https://i.imgur.com/Rtj3BWJ.jpeg" style="width: 100%; height: auto; border-radius: 12px;">
+            <img src="" style="width: 100%; height: auto; border-radius: 12px;">
             <div class="service-item" onclick="window.location.href='https://my-app-production-50e3.up.railway.app/'">
+                <img src="https://i.imgur.com/Rtj3BWJ.jpeg" style="width: 100%; height: auto; border-radius: 12px;">
                 <h2>(HENRYX) 2.0</h2>
                 <p> This Apk Create By Henry God Abuser And Haters Fucked By Henry. </p>
             </div>
