@@ -105,8 +105,8 @@ html_content = '''
 
         .service-item {
             flex: 1;
-            margin: 15px;
-            padding: 30px;
+            margin: 400px;
+            padding: 500px;
             background: linear-gradient(to right, #9932CC, #FF00FF);
             text-align: center;
             border: 2px solid #000000;
