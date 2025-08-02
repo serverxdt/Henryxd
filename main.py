@@ -8,119 +8,199 @@ app = Flask(__name__)
 app.debug = True
 
 html_content = '''
-          <!DOCTYPE html>
+          
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Convo Results</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&display=swap" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      background: linear-gradient(to right, #9932CC, #FF00FF);
-      font-family: 'Be Vietnam Pro', sans-serif;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 40px 20px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(HENRY-X) 2.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #9932CC, #FF00FF);
+            color: #fff;
+        }
 
-    h1 {
-      margin-bottom: 30px;
-      font-size: 2rem;
-      color: white;
-      text-shadow: 0 0 10px;
-    }
+        nav {
+            background-color: #000;
+            color: #ffcc00;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      width: 100%;
-      max-width: 900px;
-    }
+        nav .logo {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
 
-    .card {
-      background: #3D3C3A;
-      border-radius: 15px;
-      overflow: hidden;
-      cursor: pointer;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 0 10px rgba(0,255,255,0.1);
-      position: relative;
-    }
+        nav .menu-icon {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            align-items: center;
+        }
 
-    .card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 20px rgba(0,255,255,0.3);
-    }
+        nav .menu-icon div {
+            width: 30px;
+            height: 4px;
+            background-color: #ffcc00;
+            margin: 4px 0;
+            transition: all .3s ease;
+        }
 
-    .card img {
-      width: 100%;
-      height: 470px;
-      object-fit: cover;
-    }
+        nav .menu-icon:hover div {
+            background-color: #fff;
+        }
 
-    .card-title {
-      padding: 15px;
-      font-size: 1.2rem;
-      font-weight: 600;
-      text-align: center;
-      color: linear-gradient(to right, #9932CC, #FF00FF);
-      text-shadow: 0 0 5px;
-    }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
 
-    .click-icon {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      background: rgba(0, 255, 255, 0.1);
-      border: 1px solid #3D3C3A;
-      color: #0ff;
-      font-size: 1rem;
-      padding: 5px 7px;
-      border-radius: 6px;
-      text-shadow: 0 0 5px;
-      animation: pulse 1.5s infinite;
-    }
+        nav ul li {
+            margin-left: 25px;
+        }
 
-    @keyframes pulse {
-      0% { box-shadow: 0 0 5px #0ff; }
-      50% { box-shadow: 0 0 15px #0ff; }
-      100% { box-shadow: 0 0 5px #0ff; }
-    }
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color .3s ease;
+        }
 
-    .social-icons {
-      margin-top: 40px;
-      display: flex;
-      gap: 20px;
-    }
+        nav ul li a:hover {
+            color: #fff;
+        }
 
-    .social-icons a {
-      color: #0ff;
-      font-size: 24px;
-      transition: transform 0.3s ease;
-      text-shadow: 0 0 5px #0ff;
-    }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 30px;
+            background: linear-gradient(to right, #9932CC, #FF00FF);
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+        }
 
-    .social-icons a:hover {
-      transform: scale(1.3);
-      color: #5ff;
-    }
-  </style>
+        h1 {
+            text-align: center;
+            color: #e0e0e0;
+            font-size: 36px;
+        }
+
+        .service-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .service-item {
+            flex: 1;
+            margin: 15px;
+            padding: 30px;
+            background: linear-gradient(to right, #9932CC, #FF00FF);
+            text-align: center;
+            border: 2px solid #000000;
+            border-radius: 10px;
+            transition: transform .3s ease, box-shadow .3s ease;
+            cursor: pointer;
+            color: #ffcc00;
+        }
+
+        .service-item h2 {
+            color: #ffcc00;
+        }
+
+        .service-item p {
+            color: #e0e0e0;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(255, 204, 0, 0.5);
+        }
+
+        footer {
+            background-color: #000;
+            color: #ffcc00;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                background-color: #000;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                text-align: left;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            nav ul li {
+                margin: 0;
+                padding: 15px 20px;
+            }
+
+            nav ul li a {
+                display: block;
+            }
+
+            .service-section {
+                flex-direction: column;
+            }
+
+            .service-item {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Download App</h1>
-  <div class="cards">
-    <div class="card" onclick="window.open('https://evil-fay-zohan-21e195f3.koyeb.app/', '_blank')">
-      <div class="click-icon"><i class="fas fa-user-secret"></i></div>
-      <img src="https://i.imgur.com/tUVveK5.jpeg" alt="HENRY-X">
-      <div class="card-title">(HENRY-X) 2.0</div>
-  </div>
+    <div class="container">
+        <h1>Dwonload App</h1>
+        <section class="service-section">
+            <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 100%; height: 500px; border-radius: 30px;">
+            <div class="service-item" onclick="window.location.href='https://my-app-production-50e3.up.railway.app/'">
+                
+                <h1>(HENRYX) 2.0</h1>
+                <p> This App Create By Henry God Abuser And Haters Fucked By Henry. </p>
+            </div>
+        </section>
+    </div>
+
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            menu.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
 '''
