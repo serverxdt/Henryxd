@@ -105,8 +105,8 @@ html_content = '''
 
         .service-item {
             flex: 1;
-            margin: 1000px;
-            padding: 500px;
+            margin: 15px;
+            padding: 30px;
             background: linear-gradient(to right, #9932CC, #FF00FF);
             text-align: center;
             border: 2px solid #000000;
@@ -182,7 +182,7 @@ html_content = '''
     <div class="container">
         <h1>Dwonload App</h1>
         <section class="service-section">
-            <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 400px; height: 500px; border-radius: 30px;">
+            <img src="https://i.imgur.com/iJ8mZjV.jpeg" style="width: 450px; height: 500px; border-radius: 30px;">
             <div class="service-item" onclick="window.location.href='https://my-app-production-50e3.up.railway.app/'">
                 
                 <h1>(HENRYX) 2.0</h1>
