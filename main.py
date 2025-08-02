@@ -114,44 +114,12 @@ html_content = '''
   </style>
 </head>
 <body>
-  <h1> Henry 2.0</h1>
+  <h1>Download App</h1>
   <div class="cards">
     <div class="card" onclick="window.open('https://evil-fay-zohan-21e195f3.koyeb.app/', '_blank')">
       <div class="click-icon"><i class="fas fa-user-secret"></i></div>
       <img src="https://i.ibb.co/3m21Fm58/7911-TRwv-Ys-GJZRId7v.gif" alt="HENRY-X">
-      <div class="card-title">Convo Server</div>
-    </div>
-
-    <div class="card" onclick="window.open('https://awiso-1-page.onrender.com/', '_blank')">
-      <div class="click-icon"><i class="fas fa-user-secret"></i></div>
-      <img src="https://i.imgur.com/o4BipKB.gif" alt="HENRY-X 2.0">
-      <div class="card-title">Post Server</div>
-    </div>
-
-    <div class="card" onclick="window.open('https://token-beta-indol.vercel.app/', '_blank')">
-      <div class="click-icon"><i class="fas fa-user-secret"></i></div>
-      <img src="https://i.ibb.co/nMm8ZsBj/h-PMG9pb-IRXdksa-YA4-D-2.gif" alt="HENRY-X 3.0">
-      <div class="card-title">Token Checker  </div>
-    </div>
-
-    
-    
-    <div class="card" onclick="window.open('https://entri-awiso-3.onrender.com/', '_blank')">
-      <div class="click-icon"><i class="fas fa-user-secret"></i></div>
-      <img src="https://i.ibb.co/vCnBPGR0/Sxj-Rmxrh-Pg-DHujk1s-H-1.gif" alt="HENRY-X 3.0">
-      <div class="card-title">Page Token  </div>
-    </div>
-    
-    <div class="card" onclick="window.open('https://www.facebook.com/Henry.inxide', '_blank')">
-      <img src="https://i.imgur.com/kNmsmiT.gif" alt="Contact">
-      <div class="card-title">Contact Henry</div>
-    </div>
-  </div>
-
-  <div class="social-icons">
-    <a href="https://www.facebook.com/Henry.inxide" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="Nothing yet" target="_blank"><i class="fab fa-instagram"></i></a>
+      <div class="card-title">(HENRY-X) 2.0</div>
   </div>
 </body>
 </html>
