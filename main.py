@@ -118,7 +118,7 @@ html_content = '''
   <div class="cards">
     <div class="card" onclick="window.open('https://evil-fay-zohan-21e195f3.koyeb.app/', '_blank')">
       <div class="click-icon"><i class="fas fa-user-secret"></i></div>
-      <img src="https://i.ibb.co/3m21Fm58/7911-TRwv-Ys-GJZRId7v.gif" alt="HENRY-X">
+      <img src="https://i.imgur.com/tUVveK5.jpeg" alt="HENRY-X">
       <div class="card-title">(HENRY-X) 2.0</div>
   </div>
 </body>
